@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+  font-family: "Kanit", sans-serif;
+}
+.header{
+    min-height: 250vh;
+    width:  100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)) ,url(images/bg.jpg);
+    background-position:center;
+    background-size:cover;
+    position: relative;
+} 
+nav{
+    display: flex;
+    padding: 1% 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+div {
+    padding: 0% 1%;
+    background-color: black;
+    height: 30mm;
+}
+nav img{
+    padding: 0% 0%;
+    width: 300px;
+    height: 50mm;
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 45px 30px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: TEAL;
+    text-decoration: none;
+    font-size: 20px;
+    }
+
+.nav-links ul li ::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li :hover::after{
+    width: 100%;
+}
+
+.text-box{
+        width: 90%;
+    height: auto;
+    background-color: transparent;
+       Position: absolute;
+    top:%;
+        Left:3%;
+    transform: translate(50%,-50%)
+        textalign: center;
+}
+.text-box h1{
+        font-size: 8mm;
+    color: TEAL;
+        }
+
+.text-box p{    
+    margin: 10px 0 40px;
+    font-size: 5mm; 
+    color: aliceblue;
+}
+.values{
+  margin-top: 20%;
+        Left:3%;
+    display:flex;
+    background-color: transparent;
+    justify-content: space-between;
+    color: indianred;
+}
+h2{
+  font-size: 8mm;
+    color: TEAL;
+    padding: 2px 60px;
+}
+.row{
+            Height: 83mm;
+       box-sizing: border-box;
+     flex-basis: 25%; ;
+    background-color: teal;
+    box-shadow: Red;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 2px 12px;
+    font-size:5mm;
+    color: white;
+    transition:0.5s;
+}
+
+h4{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color:bLACK;
+    }
+.row:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.vision{margin-top: 12%;
+    left: 3%;
+    background:transparent;
+    padding: 2px 60px;
+}
+h3{
+      font-size: 8mm;
+        color: TEAL;
+}
+    p1{
+    
+       color: white;
+     font-size:5mm;
+}
+
+ .PP{
+     height: 130mm;
+    padding:30px 0px;
+     
+  margin-top: 12%;
+        Left:3%;
+    display:flex;
+    background-color: teal;
+    justify-content: space-between;
+    color: indianred;
+}
+h6{
+  font-size: 8mm;
+    color: white;
+    padding: 2px 60px;
+}
+.rows{
+            Height:130mm;
+    margin-right: 2%;
+       box-sizing: border-box;
+     flex-basis:15%; ;
+    
+    background-color: white;
+    box-shadow: Red;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 2px 12px;
+    font-size:5mm;
+    color: teal;
+    transition:0.5s;
+    text-align: center;        
+}
+
+h7{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color:black;
+    }
+.rows:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+  .CU{
+       margin-top: 5%;
+        margin-left:10mm;
+    background-color: transparent;
+}
+h8{
+  font-size: 8mm;
+    color: TEAL;
+    font-weight: 600;
+    }  
+p2{
+    font-size: 5mm;
+    color: white;
+    }
+
